@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac175a73883d4264ca57ec18e5a090f0, type: 3}
+  m_Name: Ambiente fluvial 1
+  m_EditorClassIdentifier: 
+  titlePregunta: "\xBFCu\xE1l es una de las principales fuentes de contaminaci\xF3n
+    de los r\xEDos? "
+  respuestas:
+  - respuesta: "a) La lluvia \xE1cida "
+    correcta: 0
+  - respuesta: 'b) Los vertidos industriales sin tratar '
+    correcta: 1
+  - respuesta: "c) La deforestaci\xF3n "
+    correcta: 0
+  - respuesta: 'd) Ninguna de las anteriores '
+    correcta: 0

@@ -4,5 +4,29 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Ambiente urbano.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Ambiente costero.unity
+    guid: 55cef5e181492cd4bbaa629720f13f3e
+  - enabled: 1
+    path: Assets/Scenes/Ambiente marino.unity
+    guid: 7cd3f34a4cf55864db31f934abab5c31
+  - enabled: 1
+    path: Assets/Scenes/Ambiente fluvial.unity
+    guid: 248869c639dca6d4db108364e6b6a998
+  - enabled: 1
+    path: Assets/Scenes/Ambiente de incendios forestales.unity
+    guid: d11fd7d6095b6f64ba273889c1ef07d4
+  - enabled: 1
+    path: Assets/Scenes/Ambiente polar.unity
+    guid: 7aaf4aece9139c943b2569f25ff1e607
+  - enabled: 1
+    path: "Assets/Scenes/Ambiente agr\xEDcola.unity"
+    guid: f0a5a089dc174cd41a5016ba2a183c3e
+  - enabled: 1
+    path: Assets/Scenes/Cumbre de la ONU.unity
+    guid: c0eac54130a76774890d0998259543cb
   m_configObjects: {}

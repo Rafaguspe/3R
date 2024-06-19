@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac175a73883d4264ca57ec18e5a090f0, type: 3}
+  m_Name: Ambiente urbano 2
+  m_EditorClassIdentifier: 
+  titlePregunta: "Si ves una pila de basura acumulada en un parque p\xFAblico, \xBFcu\xE1l
+    ser\xEDa la mejor opci\xF3n?"
+  respuestas:
+  - respuesta: a) Ignorarla y seguir caminando
+    correcta: 0
+  - respuesta: "b) Arrojar m\xE1s basura encima "
+    correcta: 0
+  - respuesta: 'c) Reportarla a las autoridades correspondientes para su limpieza '
+    correcta: 1
+  - respuesta: d) Prenderle fuego para deshacerse de ella
+    correcta: 0

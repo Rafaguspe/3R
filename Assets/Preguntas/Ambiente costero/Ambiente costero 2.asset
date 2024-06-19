@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac175a73883d4264ca57ec18e5a090f0, type: 3}
+  m_Name: Ambiente costero 2
+  m_EditorClassIdentifier: 
+  titlePregunta: "\xBFQu\xE9 puedes hacer para ayudar a mantener limpias las playas? "
+  respuestas:
+  - respuesta: 'a) Participar en jornadas de limpieza organizadas '
+    correcta: 1
+  - respuesta: 'b) Dejar tus desechos en la arena al irte '
+    correcta: 0
+  - respuesta: 'c) Usar platos y vasos desechables durante tus visitas '
+    correcta: 0
+  - respuesta: 'd) Ninguna de las anteriores '
+    correcta: 0

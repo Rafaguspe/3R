@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac175a73883d4264ca57ec18e5a090f0, type: 3}
+  m_Name: Ambiente urbano 1
+  m_EditorClassIdentifier: 
+  titlePregunta: "\xBFCu\xE1l de las siguientes acciones ayuda a reducir la cantidad
+    de residuos que terminan en las calles?"
+  respuestas:
+  - respuesta: 'a) Separar los desechos para facilitar el reciclaje '
+    correcta: 0
+  - respuesta: 'b) Tirar toda la basura junta en un mismo contenedor '
+    correcta: 0
+  - respuesta: 'c) Quemar los residuos en el patio trasero '
+    correcta: 0
+  - respuesta: d) Ambas a y c
+    correcta: 1

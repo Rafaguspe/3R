@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac175a73883d4264ca57ec18e5a090f0, type: 3}
+  m_Name: Cumbre de la ONU 2
+  m_EditorClassIdentifier: 
+  titlePregunta: "\xBFQu\xE9 pueden hacer los ciudadanos para presionar a los l\xEDderes
+    mundiales en temas ambientales? "
+  respuestas:
+  - respuesta: "a) Nada, s\xF3lo los gobiernos pueden tomar acciones "
+    correcta: 0
+  - respuesta: "b) Aumentar su consumo de productos da\xF1inos "
+    correcta: 0
+  - respuesta: "c) Participar en protestas y campa\xF1as de concientizaci\xF3n "
+    correcta: 1
+  - respuesta: 'd) Ninguna de las anteriores '
+    correcta: 0

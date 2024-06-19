@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac175a73883d4264ca57ec18e5a090f0, type: 3}
+  m_Name: Ambiente polar 1
+  m_EditorClassIdentifier: 
+  titlePregunta: "\xBFCu\xE1l es la principal consecuencia del deshielo de los glaciares?"
+  respuestas:
+  - respuesta: "a) Disminuci\xF3n de las temperaturas globales "
+    correcta: 0
+  - respuesta: 'b) Aumento del nivel del mar '
+    correcta: 1
+  - respuesta: "c) Formaci\xF3n de m\xE1s hielo en los polos "
+    correcta: 0
+  - respuesta: 'd) Ninguna de las anteriores '
+    correcta: 0
