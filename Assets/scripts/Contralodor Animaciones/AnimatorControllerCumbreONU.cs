@@ -1,23 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class AnimatorControllerCumbreONU : MonoBehaviour
 {
     public static AnimatorControllerCumbreONU Instance;
-    public List<Animator> listAnimator;
+    public List<string> mensajesFinales;
+    public GameObject BGInicial;
+    public GameObject BGFinal;
+    public string mensajeFinal;
+    public string scene;
 
     private void Awake()
     {
         Instance = this;
     }
 
-    public void Stop()
+    public IEnumerator Stop()
     {
-        foreach (Animator anim in listAnimator)
+        BGInicial.SetActive(false);
+        BGFinal.SetActive(true);
+        Guarda.Instance.mensajeObj.SetActive(true);
+        foreach (var item in mensajesFinales)
         {
-            anim.speed = 0;
+            Guarda.Instance.mensajeText.text = item;
+            yield return new WaitForSeconds(2f);
         }
 
         StartCoroutine(Next());
@@ -26,9 +35,9 @@ public class AnimatorControllerCumbreONU : MonoBehaviour
 
     private IEnumerator Next()
     {
-        Guarda.Instance.SetMessage("Vamos a la costa!");
+        Guarda.Instance.SetMessage(mensajeFinal);
         yield return new WaitForSeconds(4);
-        LoadSceneByName("Ambiente costero");
+        LoadSceneByName(scene);
     }
 
     public void LoadSceneByName(string sceneName)

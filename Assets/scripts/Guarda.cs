@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class Guarda : MonoBehaviour
 {
     public static Guarda Instance;
+    public List<string> mensajesList = new List<string>();
     public GameObject mensajeObj;
     public TextMeshProUGUI mensajeText;
     public List<Transform> posiciones ;
@@ -37,11 +38,23 @@ public class Guarda : MonoBehaviour
             transform.DOMove(posiciones[index].position, 3f).OnComplete(() =>
             {
                 index++;
-                mensajeText.text = "Vamos a limpiarlo!";
-                StartCoroutine(Move());
+                StartCoroutine(Mensajes());
+                
             });
         });
     }
+
+    public IEnumerator Mensajes()
+    {
+        foreach (string t in mensajesList)
+        {
+            mensajeText.text = t;
+
+            yield return new WaitForSeconds(2);
+        }
+        StartCoroutine(Move());
+    }
+
 
     public IEnumerator Move()
     {
@@ -81,45 +94,47 @@ public class Guarda : MonoBehaviour
     private void WIN()
     {
         string scene = SceneManager.GetActiveScene().name;
-        switch (scene)
-        {
-            case "Ambiente urbano":
-                AnimatorControllerUrbano.Instance.Stop();
-                break;
+        //switch (scene)
+        //{
+        //    case "Ambiente urbano":
+        //        AnimatorControllerUrbano.Instance.Stop();
+        //        break;
 
-            case "Ambiente costero":
-                AnimatorControllerCostero.Instance.Stop();
-                break;
+        //    case "Ambiente costero":
+        //        AnimatorControllerCostero.Instance.Stop();
+        //        break;
 
-            case "Ambiente marino":
-                AnimatorControllerMarino.Instance.Stop();
-                break;
+        //    case "Ambiente marino":
+        //        AnimatorControllerMarino.Instance.Stop();
+        //        break;
 
-            case "Ambiente fluvial":
-                AnimatorControllerFluvial.Instance.Stop();
-                break;
+        //    case "Ambiente fluvial":
+        //        AnimatorControllerFluvial.Instance.Stop();
+        //        break;
 
-            case "Ambiente desértico":
-                AnimatorControllerDesertico.Instance.Stop();
-                break;
+        //    case "Ambiente desértico":
+        //        AnimatorControllerDesertico.Instance.Stop();
+        //        break;
 
-            case "Ambiente de incendios forestales":
-                AnimatorControllerIncendiosForestales.Instance.Stop();
-                break;
+        //    case "Ambiente de incendios forestales":
+        //        AnimatorControllerIncendiosForestales.Instance.Stop();
+        //        break;
 
-            case "Ambiente polar":
-                AnimatorControllerPolar.Instance.Stop();
-                break;
+        //    case "Ambiente polar":
+        //        AnimatorControllerPolar.Instance.Stop();
+        //        break;
 
-            case "Ambiente agrícola":
-                AnimatorControllerAgricola.Instance.Stop();
-                break;
+        //    case "Ambiente agrícola":
+        //        AnimatorControllerAgricola.Instance.Stop();
+        //        break;
 
-            case "Cumbre de la ONU":
-                AnimatorControllerCumbreONU.Instance.Stop();
-                break;
+        //    case "Cumbre de la ONU":
+        //        StartCoroutine(AnimatorControllerCumbreONU.Instance.Stop());
+        //        break;
 
-        }
+        //}
+
+        StartCoroutine(AnimatorControllerCumbreONU.Instance.Stop());
     }
 
 

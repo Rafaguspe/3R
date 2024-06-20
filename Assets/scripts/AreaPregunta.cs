@@ -9,6 +9,7 @@ public class AreaPregunta : MonoBehaviour
     public static AreaPregunta Instance;
     public GameObject BG;
     public List<Preguntas> listPreguntas;
+    public List<GameObject> ObjetosEliminar;
     public Respuestas repuestaCorrecta;
     public TextMeshProUGUI preguntaText;
     public Transform container;
@@ -98,6 +99,7 @@ public class AreaPregunta : MonoBehaviour
     private IEnumerator Correct()
     {
         Guarda.Instance.SetMessage("Genial!");
+        ObjetosEliminar[index].SetActive(false);
         index++;
         yield return new WaitForSeconds(1.5f);
         StartCoroutine(Guarda.Instance.Move());

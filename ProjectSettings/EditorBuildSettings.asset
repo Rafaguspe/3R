@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 7fe85350e0d66a44a89996a72bdfd2d4
+  - enabled: 1
     path: Assets/Scenes/Ambiente urbano.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -17,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ambiente fluvial.unity
     guid: 248869c639dca6d4db108364e6b6a998
+  - enabled: 1
+    path: "Assets/Scenes/Ambiente des\xE9rtico.unity"
+    guid: be2659e7fc52cb545b4bb32f1d1f2dea
   - enabled: 1
     path: Assets/Scenes/Ambiente de incendios forestales.unity
     guid: d11fd7d6095b6f64ba273889c1ef07d4
