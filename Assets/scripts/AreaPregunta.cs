@@ -90,7 +90,7 @@ public class AreaPregunta : MonoBehaviour
 
     private IEnumerator Incorrect()
     {
-        Guarda.Instance.SetMessage("No es correcto!");
+        Guarda.Instance.SetMessage("¡No es correcto!");
         yield return new WaitForSeconds(2.5f);
         Show();
 
@@ -98,7 +98,7 @@ public class AreaPregunta : MonoBehaviour
 
     private IEnumerator Correct()
     {
-        Guarda.Instance.SetMessage("Genial!");
+        Guarda.Instance.SetMessage("¡Genial!");
         ObjetosEliminar[index].SetActive(false);
         index++;
         yield return new WaitForSeconds(1.5f);

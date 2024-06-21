@@ -50,7 +50,7 @@ public class Guarda : MonoBehaviour
         {
             mensajeText.text = t;
 
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(3.5f);
         }
         StartCoroutine(Move());
     }
@@ -86,7 +86,7 @@ public class Guarda : MonoBehaviour
 
     private IEnumerator ShowMessage()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         mensajeObj.SetActive(false);
 
     }

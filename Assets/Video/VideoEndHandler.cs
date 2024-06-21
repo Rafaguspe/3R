@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using UnityEngine.Video;
 
 public class VideoEndHandler : MonoBehaviour
 {
     public  VideoPlayer videoPlayer;
     public string scene;
+    public Button saltar;
 
     void Start()
     {
@@ -13,6 +15,7 @@ public class VideoEndHandler : MonoBehaviour
         {
             videoPlayer.loopPointReached += OnVideoEnd;
         }
+        saltar.onClick.AddListener(() => SkipToLastSecond());
     }
 
     void OnVideoEnd(VideoPlayer vp)
@@ -25,6 +28,16 @@ public class VideoEndHandler : MonoBehaviour
     public void LoadSceneByName(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void SkipToLastSecond()
+    {
+        if (videoPlayer.isPrepared)
+        {
+            double videoLength = videoPlayer.length;
+            videoPlayer.time = videoLength;// Saltar al último segundo
+            videoPlayer.Play();
+        }
     }
 
     void OnDestroy()

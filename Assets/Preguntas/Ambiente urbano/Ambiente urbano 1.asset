@@ -16,10 +16,10 @@ MonoBehaviour:
     de residuos que terminan en las calles?"
   respuestas:
   - respuesta: 'a) Separar los desechos para facilitar el reciclaje '
-    correcta: 0
+    correcta: 1
   - respuesta: 'b) Tirar toda la basura junta en un mismo contenedor '
     correcta: 0
   - respuesta: 'c) Quemar los residuos en el patio trasero '
     correcta: 0
   - respuesta: d) Ambas a y c
-    correcta: 1
+    correcta: 0

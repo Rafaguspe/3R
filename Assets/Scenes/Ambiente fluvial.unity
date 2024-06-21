@@ -634,9 +634,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mensajesList:
-  - Hay que limpiar el rio
+  - "Hay que limpiar el r\xEDo"
   - Tiene mucha basura
-  - Vamos a limpiarlo!
+  - "\xA1Vamos a limpiarlo!"
   mensajeObj: {fileID: 1456726228}
   mensajeText: {fileID: 1197772922}
   posiciones:
@@ -2481,6 +2481,172 @@ RectTransform:
   m_AnchoredPosition: {x: -11.524, y: 277.95306}
   m_SizeDelta: {x: 497.16, y: 103.651}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1125799070
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1862590125}
+    m_Modifications:
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 162.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755756814545355661, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_Name
+      value: TopBar
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+--- !u!224 &1125799071 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+  m_PrefabInstance: {fileID: 1125799070}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1133468552
 GameObject:
   m_ObjectHideFlags: 0
@@ -2760,7 +2926,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Todo esta sucio
+  m_text: "\xA1Todo est\xE1 sucio!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2793,7 +2959,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3002,8 +3168,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7ede6969237f7034cbf1cbedb9a23bb3, type: 2}
   - {fileID: 11400000, guid: e48b89b0d4d239c45b8699a4f0a9a5a0, type: 2}
   ObjetosEliminar:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 808384524}
+  - {fileID: 1598649531}
   repuestaCorrecta:
     respuesta: 
     correcta: 0
@@ -3622,7 +3788,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4128,12 +4294,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mensajesFinales:
-  - Limpiamos el rio excelente!
+  - "\xA1Limpiamos el r\xEDo excelente!"
   - Si ponemos la basura en su lugar
-  - Podemos ayudar a evitar que llegue al rio
+  - "Podemos ayudar a evitar que llegue al r\xEDo"
   BGInicial: {fileID: 942882556}
   BGFinal: {fileID: 1848418251}
-  mensajeFinal: Vamos al desierto!
+  mensajeFinal: "\xA1Vamos al desierto!"
   scene: "Ambiente des\xE9rtico"
 --- !u!1 &1862590124
 GameObject:
@@ -4168,6 +4334,7 @@ RectTransform:
   m_Children:
   - {fileID: 942882557}
   - {fileID: 1848418254}
+  - {fileID: 1125799071}
   - {fileID: 678016340}
   - {fileID: 1528724665}
   - {fileID: 430445186}
@@ -4887,7 +5054,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 250
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535

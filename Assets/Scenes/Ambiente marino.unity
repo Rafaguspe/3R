@@ -397,12 +397,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mensajesFinales:
-  - Limpiamos el oceano Excelente!
+  - "\xA1Limpiamos el oc\xE9ano Excelente!"
   - Si tiramos nuestra basura en la calle
-  - Puede llegar hasta el oceano.
+  - "Puede llegar hasta el oc\xE9ano"
   BGInicial: {fileID: 1218314913}
   BGFinal: {fileID: 166894826}
-  mensajeFinal: Vamos a un lugar fluvial!
+  mensajeFinal: "\xA1Vamos a un lugar fluvial!"
   scene: Ambiente fluvial
 --- !u!1 &131128546
 GameObject:
@@ -599,7 +599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &166894827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -825,7 +825,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 250
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2447,9 +2447,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mensajesList:
-  - El oceano esta sucio
+  - "El oc\xE9ano est\xE1 sucio"
   - Las tortugas comen basura
-  - Vamos a limpiarlo!
+  - "\xA1Vamos a limpiarlo!"
   mensajeObj: {fileID: 1672276761}
   mensajeText: {fileID: 1892225083}
   posiciones:
@@ -2531,6 +2531,172 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096841190}
   m_CullTransparentMesh: 1
+--- !u!1001 &1167152431
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1398588205}
+    m_Modifications:
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 162.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755756814545355661, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_Name
+      value: TopBar
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+--- !u!224 &1167152432 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+  m_PrefabInstance: {fileID: 1167152431}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1191840604
 GameObject:
   m_ObjectHideFlags: 0
@@ -3019,6 +3185,7 @@ RectTransform:
   m_Children:
   - {fileID: 1218314914}
   - {fileID: 166894829}
+  - {fileID: 1167152432}
   - {fileID: 825884977}
   - {fileID: 226849902}
   - {fileID: 1528163963}
@@ -3480,8 +3647,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 40c664d6fd83601418cd3d94149e13d3, type: 2}
   - {fileID: 11400000, guid: 9fef4f064858e224bb0f71e9ebf1680d, type: 2}
   ObjetosEliminar:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 353838053}
+  - {fileID: 1576287755}
   repuestaCorrecta:
     respuesta: 
     correcta: 0
@@ -4687,7 +4854,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ayudame con los residuos.
+  m_text: "\xA1Ay\xFAdame con los residuos!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4720,7 +4887,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -5304,7 +5471,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535

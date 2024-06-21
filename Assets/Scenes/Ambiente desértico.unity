@@ -617,10 +617,10 @@ MonoBehaviour:
   mensajesFinales:
   - Genial llegamos al Oasis
   - "Debemos evitar la desertificaci\xF3n"
-  - Plantemos arboles
+  - "\xA1Plantemos \xE1rboles!"
   BGInicial: {fileID: 77063328}
   BGFinal: {fileID: 1582416589}
-  mensajeFinal: Vamos al bosque!
+  mensajeFinal: "\xA1Vamos al bosque!"
   scene: Ambiente de incendios forestales
 --- !u!1 &320262932
 GameObject:
@@ -773,6 +773,172 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346090972}
   m_CullTransparentMesh: 1
+--- !u!1001 &371694601
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1357553759}
+    m_Modifications:
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207900274512063829, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 162.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131486437022483524, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007884274515617950, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422460557959752901, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755756814545355661, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+      propertyPath: m_Name
+      value: TopBar
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+--- !u!224 &371694602 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2844669100130008450, guid: c75ed51684e07e8429e0d0d2828b5848, type: 3}
+  m_PrefabInstance: {fileID: 371694601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &376020760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1842,8 +2008,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mensajesList:
   - El calor esta fuerte
-  - debemos ir al Oasis
-  - ayudame a encontrarlo!
+  - Debemos ir al Oasis
+  - "\xA1Ay\xFAdame a encontrarlo!"
   mensajeObj: {fileID: 467107484}
   mensajeText: {fileID: 1329205389}
   posiciones:
@@ -2738,7 +2904,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 250
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -3140,7 +3306,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hace mucho calor!
+  m_text: "\xA1Hace mucho calor!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3173,7 +3339,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3388,6 +3554,7 @@ RectTransform:
   m_Children:
   - {fileID: 77063329}
   - {fileID: 1582416590}
+  - {fileID: 371694602}
   - {fileID: 84103682}
   - {fileID: 1239205455}
   - {fileID: 118539076}
@@ -5036,7 +5203,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
